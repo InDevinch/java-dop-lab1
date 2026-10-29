@@ -8,7 +8,7 @@ public class Main {
         NotificationProcessor processor = new NotificationProcessor();
 
         List<Notification> inbox = List.of(
-                new TextMsg("Alice", "Привіт! Як справи з лабою?"),
+                new TextMsg("Alice", "Hi! How is the lab going?"),
                 new ImageMsg("Bob", "https://example.com/screenshot.png", 348),
                 new AudioMsg("Charlie", 17)
         );
