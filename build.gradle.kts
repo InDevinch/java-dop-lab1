@@ -1,5 +1,10 @@
 plugins {
     java
+    application
+}
+
+application {
+    mainClass = "ua.kpi.comsys.dop.Main"
 }
 
 group = "ua.kpi.comsys"
